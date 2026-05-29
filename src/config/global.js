@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Validación y optimización del contenido digital',
+    Description:
+      'Este componente formativo orienta al aprendiz en la verificación, evaluación y mejora del contenido digital en redes sociales, mediante la aplicación de protocolos de comunicación, análisis de la estructura de publicaciones y revisión de resultados, con el fin de optimizar la efectividad del contenido y su coherencia con la estrategia digital.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -31,28 +40,159 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Protocolos de comunicación en redes sociales',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Concepto de protocolos de comunicación digital',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Normas de interacción en redes sociales: netiqueta',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Uso adecuado del lenguaje digital',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Manejo de comentarios, mensajes y respuestas',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Coherencia comunicativa de la marca',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: 'Actividad práctica',
+            hash: 't_1_6',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Verificación de la estructura del contenido digital',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Elementos de una publicación ',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Validación del mensaje y objetivo del contenido',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Coherencia con el público objetivo',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Revisión de calidad del contenido digital',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Lista de chequeo para validación de publicaciones',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Actividad práctica.',
+            hash: 't_2_6',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Evaluación del contenido en redes sociales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Concepto de métricas en redes sociales',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Tipos de métricas en redes sociales',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Análisis del desempeño del contenido',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Identificación de errores y aciertos',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Relación entre contenido y resultados',
+            hash: 't_3_5',
+          },
+          {
+            numero: '3.6',
+            titulo: 'Interpretación de resultados para la toma de decisiones',
+            hash: 't_3_6',
+          },
+          {
+            numero: '3.7',
+            titulo: 'Actividad práctica',
+            hash: 't_3_7',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Ajuste y optimización del contenido digital',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Concepto de optimización de contenido',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Mejora de publicaciones según resultados',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Ajuste del mensaje, formato y estrategia',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Retroalimentación del contenido',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Mejora continua en redes sociales',
+            hash: 't_4_5',
+          },
+          {
+            numero: '4.6',
+            titulo: 'Actividad práctica',
+            hash: 't_4_6',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -72,11 +212,6 @@ export default {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
-      },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
       },
       {
         icono: 'fas fa-book',
