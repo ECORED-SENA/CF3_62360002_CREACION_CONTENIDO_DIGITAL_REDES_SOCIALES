@@ -361,6 +361,168 @@
         #t_3_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 3.6 Interpretación de resultados para la toma de decisiones
     p(data-aos="fade-left") La interpretación de resultados consiste en analizar los datos obtenidos para tomar decisiones orientadas al mejoramiento del contenido digital. Este proceso es clave dentro de la validación del contenido, ya que permite ajustar la estrategia con base en información objetiva. Algunas decisiones frecuentes que pueden tomarse son las siguientes:
+    .row.bg-color-2
+      .col-12
+        .p-5
+          //- Carrusel
+          .bg-full-width
+            .px-4.px-md-5.pb-md-3             
+              .carousel-bg
+                .row.justify-content-center.align-items-center
+                  .col-lg-8.mb-3.mb-lg-0.order-lg-2
+                    SlyderF(columnas="col-xl-6 col-lg-6")
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema3/tarjeta06_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Cambiar el tipo de contenido
+                        p.card-text.text-center
+                        | Adaptar publicaciones según preferencias de la audiencia.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema3/tarjeta06_2.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Ajustar el mensaje
+                        p.card-text.text-center
+                        | Mejorar claridad, interés o persuasión.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema3/tarjeta06_3.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Modificar el formato
+                        p.card-text.text-center
+                        | Usar video, imagen, carrusel u otros recursos más efectivos.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema3/tarjeta06_4.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Mejorar el diseño
+                        p.card-text.text-center
+                        | Incrementar impacto visual y profesionalismo.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema3/tarjeta06_5.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Cambiar el horario de publicación
+                        p.card-text.text-center
+                        | Aprovechar momentos de mayor actividad de la audiencia.
+                  .col-lg-4.order-lg-1.d-none.d-lg-block
+                      figure
+                        img(src='@/assets/curso/tema3/img7.png', style="max-width: 300px", data-aos="zoom-in").m-auto
+          //- Fin Carrusel
+    p(data-aos="fade-left") La capacidad de interpretar resultados es una habilidad fundamental en la gestión de contenido digital, ya que permite optimizar la estrategia y mejorar el desempeño de las publicaciones.
+    //- Título con imagen
+    .bg-full-width
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Ejemplo aplicado de toma de decisiones
+    //- Título con imagen
+    p.mb-5(data-aos="fade-left") Para comprender mejor la interpretación de resultados, se presenta el siguiente caso práctico relacionado con la evaluación de contenido en redes sociales.
+    .col-5
+      h3.p-2.bg-color-15.rounded-2 Caso: publicación de producto en Instagram
+    p(data-aos="fade-left") A continuación, se presentan los resultados obtenidos:
+    //- Inicio Tabla
+    .row.bg-color-1
+      .col-12
+        .p-5
+          .row.justify-content-center.mb-2
+            .col-md-auto
+              .titulo-sexto.color-acento-contenido.mb-3
+                h5 Tabla 2.
+                span  Métricas básicas de rendimiento en redes sociales
+              .tabla-a
+                table
+                  thead
+                    tr
+                      th.text-center(style="width: 40%") Métrica
+                      th.text-center(style="width: 60%") Resultado
+                  tbody
+                    tr
+                      td Alcance
+                      td 5.000 personas
+                    tr
+                      td Interacción
+                      td 50 likes y 2 comentarios
+                    tr
+                      td <i>Engagement</i>
+                      td Bajo
+            p.mt-5 Aunque la publicación tuvo buen alcance, la interacción fue baja, lo que indica que el contenido no generó suficiente interés en la audiencia. Esto puede relacionarse con factores como mensaje poco atractivo, ausencia de incentivo para participar o formato poco dinámico.
+    .bloque-texto-g.bloque-texto-g--inverso.bg-color-8.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema3/img8.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        h4 Decisiones a tomar:
+        ul.lista-ul.color-vinotinto-custom.mb-0
+          li.d-flex.mt-3
+            i.fas.fa-check-circle.me-3
+            p.mb-0 Ajustar el mensaje para hacerlo más atractivo. 
+          li.d-flex.mt-2
+            i.fas.fa-check-circle.me-3
+            p.mb-0 Incluir un llamado a la acción (CTA). 
+          li.d-flex.mt-2
+            i.fas.fa-check-circle.me-3
+            p.mb-0 Mejorar la calidad visual. 
+          li.d-flex.mt-2
+            i.fas.fa-check-circle.me-3
+            p.mb-3 Cambiar el formato y utilizar video en lugar de imagen. 
+        h4 Conclusión <br>
+        p.mt-5 La interpretación de resultados permite identificar fallas y aplicar mejoras estratégicas en futuras publicaciones.
+    //- Título con imagen
+    .bg-full-width
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Importancia de la toma de decisiones basada en datos
+    //- Título con imagen
+    p.mb-5(data-aos="fade-left") La toma de decisiones en redes sociales debe basarse en datos obtenidos a partir de métricas y no en suposiciones. Esto permite reducir errores, mejorar la efectividad del contenido y optimizar la estrategia digital. Las decisiones basadas en datos permiten:
+    .row.mb-5.justify-content-center.align-items-center
+      .col-12.col-sm-9.col-lg-4.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center
+          img(src='@/assets/curso/tema3/img9.png' style="width: 600px").m-auto
+      .col-12.col-lg-8.order-2.order-lg-2(data-aos="fade-right")
+        p.bg-color-16.p-4.rounded 
+          ul.lista-ul.color-vinotinto-custom.mb-0
+            li.d-flex.mt-3
+              i.fas.fa-check-circle.me-3
+              p.mb-0 Identificar qué tipo de contenido funciona mejor. 
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-3
+              p.mb-0 Ajustar estrategias de comunicación. 
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-3
+              p.mb-0 Mejorar la segmentación del público. 
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-3
+              p.mb-0 Incrementar el <i>engagement.</i> 
+            li.d-flex.mt-2
+              i.fas.fa-check-circle.me-3
+              p.mb-0 Optimizar recursos y esfuerzos de publicación.
+    p(data-aos="fade-left") Trabajar con información medible fortalece la capacidad de respuesta y mejora los resultados de manera sostenida.
+    Separador
+    //- Inicio Tema3.7
+    .row.mt-5
+        #t_3_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 3.7 Actividad práctica
+    p(data-aos="fade-left") La siguiente actividad permite aplicar conceptos de evaluación del contenido digital mediante el análisis de una publicación real en redes sociales.
+    .row.mb-5.justify-content-center.align-items-center
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center
+          img(src='@/assets/curso/tema3/img10.png' style="width: 600px").m-auto
+      .col-12.col-lg-7.order-2.order-lg-1.bg-color-17.p-2.rounded(data-aos="fade-right")        
+        h4 Evaluación de contenido digital
+        p Seleccione una publicación de redes sociales y realice el siguiente análisis:
+        ul.lista-ul.color-vinotinto-custom.mb-0
+          li.d-flex.mt-3
+            i.fas.fa-check-circle.me-3
+            p.mb-0 Identifique las métricas principales. 
+          li.d-flex.mt-2
+            i.fas.fa-check-circle.me-3
+            p.mb-0 Analice el alcance y la interacción. 
+          li.d-flex.mt-2
+            i.fas.fa-check-circle.me-3
+            p.mb-0 Determine el nivel de <i>engagement</i>. 
+          li.d-flex.mt-2
+            i.fas.fa-check-circle.me-3
+            p.mb-0 Identifique errores y aciertos. 
+          li.d-flex.mt-2
+            i.fas.fa-check-circle.me-3
+            p.mb-3 Proponga mejoras.
+        h4 Resultado esperado
+        p El aprendiz debe demostrar capacidad para analizar resultados y tomar decisiones basadas en datos.
 </template>
 
 <script>
