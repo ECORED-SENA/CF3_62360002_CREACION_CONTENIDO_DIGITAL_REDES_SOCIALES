@@ -21,7 +21,7 @@
                   h5.mb-3.fw-bold Verificación de la estructura del contenido digital
                   TarjetaAudio.color-primario(
                     texto="" 
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/componentes/audios/podcast.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")        

@@ -151,7 +151,7 @@
       .col-12
         .p-5
           //- Inicio Tarjetas
-          .row.justify-content-center.mt-5.mb-3(data-aos="fade-left")      
+          .row.justify-content-center.mt-1.mb-5(data-aos="fade-left")      
             .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
               .p-4.br-15.h-100.text-center.shadow.rounded-4.d-flex.flex-column.align-items-center.bg-color-14
                 figure.mb-4
@@ -430,13 +430,13 @@
                       th.text-center(style="width: 60%") Resultado
                   tbody
                     tr
-                      td Alcance
+                      td <b>Alcance</b> 
                       td 5.000 personas
                     tr
-                      td Interacción
+                      td <b>Interacción</b>
                       td 50 likes y 2 comentarios
                     tr
-                      td <i>Engagement</i>
+                      td <b><i>Engagement</i></b>
                       td Bajo
             p.mt-5 Aunque la publicación tuvo buen alcance, la interacción fue baja, lo que indica que el contenido no generó suficiente interés en la audiencia. Esto puede relacionarse con factores como mensaje poco atractivo, ausencia de incentivo para participar o formato poco dinámico.
     .bloque-texto-g.bloque-texto-g--inverso.bg-color-8.p-3.p-sm-4.p-md-5.mb-5

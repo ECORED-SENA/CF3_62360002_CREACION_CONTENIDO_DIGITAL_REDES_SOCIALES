@@ -217,7 +217,7 @@
         figure.mb-0.text-center
           img(src='@/assets/curso/tema1/img6.png' style="width: 500px").m-auto
       .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
-        p.bg-color-7.p-4 Una marca que mantiene coherencia en su comunicación transmite profesionalismo, organización y confianza. Por el contrario, una comunicación inconsistente puede generar confusión en la audiencia y afectar la percepción de la marca. 
+        p.bg-color-7.p-5 Una marca que mantiene coherencia en su comunicación transmite profesionalismo, organización y confianza. Por el contrario, una comunicación inconsistente puede generar confusión en la audiencia y afectar la percepción de la marca. 
         p.mb-0 A continuación, se presentan los principales elementos de la coherencia comunicativa:
     //- Inicio Accordion
     .bg--img_03.mt-5
