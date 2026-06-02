@@ -245,14 +245,53 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'CTA',
+      significado:
+        'elemento visual o textual que forma parte de un anuncio, mensaje, sitio <i>web</i> u otro entorno digital, cuya función es motivar o guiar a usuarios y clientes a realizar una acción específica, como hacer clic, suscribirse, comprar un producto o descargar un recurso.',
+    },
+    {
+      termino: 'Coherencia comunicativa',
+      significado:
+        'capacidad de transmitir un mensaje de manera organizada, comprensible y precisa, tanto al hablar como al escribir, para que el receptor pueda entenderlo adecuadamente.',
+    },
+    {
+      termino: '<i>Engagement</i>',
+      significado:
+        'nivel de compromiso emocional e interacción activa que una persona tiene con una marca, producto o contenido, orientado a construir conexiones reales y duraderas con la audiencia.',
+    },
+    {
+      termino: 'Estrategia digital',
+      significado:
+        'plan estructurado que utiliza herramientas y canales digitales para alcanzar objetivos comerciales, como aumentar la visibilidad de una marca, generar clientes potenciales, mejorar la conversión y fidelizar clientes.',
+    },
+    {
+      termino: 'Netiqueta',
+      significado:
+        'conjunto de normas de comportamiento en entornos digitales que facilita la comunicación, la convivencia y el respeto entre usuarios en internet.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Lenis, A. (2015, 27 de marzo). Qué es un <i>call to action</i> o CTA y cómo crearlo con éxito. HubSpot. ',
+      link: 'https://blog.hubspot.es/website/que-es-call-to-action',
+    },
+    {
+      referencia:
+        'Santos, D. (2025, 21 de noviembre). <i>Engagement</i> en <i>marketing</i>: qué es, cómo medirlo y mejorarlo. HubSpot. ',
+      link: 'https://blog.hubspot.es/marketing/guia-engagement',
+    },
+    {
+      referencia:
+        'Santos, D. (2026, 19 de febrero). Estrategias de <i>marketing</i> digital: guía completa con ejemplos. HubSpot. ',
+      link:
+        'https://blog.hubspot.es/marketing/guia-completa-estrategia-marketing-digital',
+    },
+    {
+      referencia:
+        'Santander Open Academy. (2023, 31 de agosto). ¿Qué son las netiquetas? Ejemplos de cómo emplearlas. ',
+      link:
+        'https://www.santanderopenacademy.com/es/blog/netiqueta-ejemplos.html',
     },
   ],
   creditos: [
@@ -260,14 +299,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo:
+            'Profesional 06. <br> Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Olga Constanza Bermúdez Jaimes',
+          cargo: 'Responsable de línea de producción Huila',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -275,9 +315,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Joinner Enrique Osorio Martínez',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },

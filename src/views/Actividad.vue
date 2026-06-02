@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Validación y optimización del contenido digital',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Evaluar los conocimientos adquiridos por el aprendiz sobre los protocolos de comunicación, la verificación de la estructura del contenido, la evaluación mediante métricas y el proceso de ajuste y optimización del contenido digital en redes sociales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,28 +28,28 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el objetivo principal de validar el contenido digital?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Publicar contenido constantemente.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Mejorar la calidad del contenido.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Crear nuevas estrategias.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Aumentar el número de seguidores.',
               esCorrecta: false,
             },
           ],
@@ -58,29 +58,28 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+          texto: '¿Qué son los protocolos de comunicación en redes sociales?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Aplicaciones de diseño.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Tipos de contenido.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Normas de interacción.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Estrategias comerciales.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +88,28 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: '¿Qué busca la netiqueta en redes sociales?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Regular la interacción.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Incrementar seguidores.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Diseñar contenido.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Promocionar productos.',
               esCorrecta: false,
             },
           ],
@@ -119,29 +118,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: '¿Cuál es un elemento esencial en una publicación digital?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Música de fondo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Ubicación geográfica.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Texto claro.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Tiempo de publicación.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +148,28 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto: '¿Qué se debe definir antes de validar una publicación?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'El tamaño del diseño.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
+              texto: 'El público objetivo.',
+              esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'El tipo de letra.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'El horario de publicación.',
               esCorrecta: false,
             },
           ],
@@ -180,30 +178,29 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué mide el alcance en redes sociales?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Cantidad de seguidores.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Numero de ventas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Tiempos de conexión.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Personas que ven el contenido.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -211,29 +208,28 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: '¿Qué indica la interacción en una publicación?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Nivel de participación.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Cantidad de usuarios.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Tiempo de publicación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Tipo de contenido.',
               esCorrecta: false,
             },
           ],
@@ -242,29 +238,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Qué representa el <i>engagement</i> en redes sociales?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Costo de publicación.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Nivel de conexión con usuarios.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Número de publicaciones.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Uso de herramientas.',
               esCorrecta: false,
             },
           ],
@@ -273,20 +268,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+          texto: '¿Qué permiten analizar las métricas?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Resultados del contenido.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Herramientas digitales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Nuevas plataformas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Tipos de diseño.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +298,28 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+          texto: '¿Qué significa tener alto alcance y baja interacción?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Contenido viral.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Bajo interés del usuario.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Buen diseño.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Alta calidad.',
               esCorrecta: false,
             },
           ],
@@ -315,20 +328,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Qué es la optimización del contenido digital?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Crear contenido nuevo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Organizar archivos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Mejorar contenido.',
               esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar publicaciones.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -336,20 +358,29 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Cuál es un ejemplo de ajuste del contenido?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Subir un archivo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Crear una cuenta.',
               esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Cambiar la red social.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Modificar el mensaje.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -357,19 +388,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+          texto: '¿Qué permite la retroalimentación del contenido?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Diseñar contenido nuevo.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Aumentar seguidores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Identificar mejoras.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir publicaciones.',
               esCorrecta: false,
             },
           ],
@@ -378,20 +418,29 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+          texto: '¿Qué se busca con la mejora continua?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Ajustar el contenido.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Publicar más contenido.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Usar más redes sociales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cambiar herramientas.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -399,19 +448,178 @@ export default {
         },
         {
           id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          texto: '¿Qué es una lista de chequeo?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Aplicación digital.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Tipo de diseño.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Estrategia de verificación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Herramienta de verificación.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué práctica se debe evitar en redes sociales?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Responder comentarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Usar lenguaje claro.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Emplear lenguaje ofensivo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Interactuar con usuarios.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Qué elemento incentiva la acción del usuario?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Imagen.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'CTA.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Color.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Formato.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: '¿Qué permite la coherencia comunicativa?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Cambiar el mensaje.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Crear contenido nuevo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Mantener la identidad de marca.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Usar más plataformas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué se analiza para mejorar el contenido digital?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Tipografía.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Tamaño del archivo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Métricas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Colores.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: '¿Cuál es una acción final en la validación del contenido?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Optimizar contenido.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Diseñar publicaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Crear contenido.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Publicar contenido.',
               esCorrecta: false,
             },
           ],
