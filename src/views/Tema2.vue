@@ -61,7 +61,7 @@
                   img(src='@/assets/curso/tema2/tarjeta01_3.png')
               .col-md-7
                 h4 Llamado a la acción (CTA)
-                p Indica la acción esperada del usuario, como comentar, compartir, comprar o ingresar a un enlace. Debe ser claro, directo y pertinente..
+                p Indica la acción esperada del usuario, como comentar, compartir, comprar o ingresar a un enlace. Debe ser claro, directo y pertinente.
           .py-3.py-md-4(titulo="<i>Hashtags</i>")
             .row.align-items-center
               .col-md-5.mb-4.mb-md-0
@@ -315,7 +315,7 @@
     //- Inicio Tema2.6
     .row.mt-5
         #t_2_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 2.6 Actividad práctica.
+          h2 2.6 Actividad práctica
     p(data-aos="fade-left") La siguiente actividad tiene como propósito aplicar criterios de verificación en una publicación real de redes sociales. Seleccione una publicación de redes sociales y realice el siguiente análisis:
     //- Accordeon Pasos    
     .row.justify-content-center.mb-5

@@ -74,7 +74,7 @@
     .row.mt-5
         #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.3 Uso adecuado del lenguaje digital
-    p(data-aos="fade-left") El <b>lenguaje digital</b> hace referencia a la forma en que se construyen los mensajes en entornos virtuales, especialmente en redes sociales. Se caracteriza por ser dinámico, cercano y adaptado al tipo de audiencia al que se dirige el contenido.
+    p(data-aos="fade-left") El <b>lenguaje digital</b> hace referencia a la forma en que se construyen los mensajes en entornos virtuales, especialmente en redes sociales. Se caracteriza por ser dinámico, cercano y adaptado al tipo de audiencia a la que se dirige el contenido.
     .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-4.mb-5
       .col-lg-5.d-flex
         figure.mb-0.w-100
@@ -203,7 +203,7 @@
                 img(src='@/assets/curso/tema1/tarjeta04_2.svg', alt='Icono Balance técnico', style="max-width: 90px; width: 100%; height: 90px; object-fit: contain;").mx-auto                 
               .text-center.mb-4
                 h4.card-title.mb-3.fw-bold Usuario insatisfecho, respuesta correcta
-                p <i>“Lamentamos lo ocurrido, por favor contáctanos para ayudarte”.</i>
+                p <i>“Lamentamos lo ocurrido, por favor, contáctanos para ayudarte”.</i>
     p(data-aos="fade-left") Este tipo de análisis es clave dentro del proceso de validación del contenido digital, ya que permite evaluar la calidad de la interacción con los usuarios.                
     //- Fin Tarjetas
     Separador

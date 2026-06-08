@@ -11,7 +11,7 @@
         figure.mb-0.text-center
           img(src='@/assets/curso/tema3/img1.png' style="width: 550px").m-auto
       .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
-        p.bg-color-11.p-4.rounded La evaluación del contenido digital es el proceso mediante el cual se analizan los resultados obtenidos a partir de la publicación de contenido en redes sociales, con el fin de determinar su efectividad, impacto y nivel de cumplimiento de los objetivos de comunicación.
+        p.bg-color-11.p-4.rounded <b>La evaluación del contenido digital</b> es el proceso mediante el cual se analizan los resultados obtenidos a partir de la publicación de contenido en redes sociales, con el fin de determinar su efectividad, impacto y nivel de cumplimiento de los objetivos de comunicación.
         p Este proceso permite identificar si el contenido logró captar la atención del público, generar interacción y cumplir con la intención para la cual fue creado. En el contexto del marketing digital, la evaluación del contenido constituye una etapa fundamental dentro del ciclo de gestión del contenido, ya que proporciona información objetiva basada en datos reales. A diferencia de la percepción subjetiva, la evaluación permite medir el desempeño mediante indicadores específicos, facilitando la toma de decisiones informadas.
         p.mb-0 La evaluación no solo se enfoca en determinar si un contenido obtuvo buenos o bajos resultados, sino en comprender por qué ocurrió. Para ello, es necesario analizar factores como:
     .row.mb-5.justify-content-center.align-items-center
@@ -23,19 +23,19 @@
           ul.lista-ul.color-vinotinto-custom.mb-0
             li.d-flex.mt-3
               i.fas.fa-check-circle.me-3
-              p.mb-0 Tipo de contenido publicado. 
+              p.mb-0 Tipo de contenido publicado
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Formato utilizado. 
+              p.mb-0 Formato utilizado
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Mensaje comunicado. 
+              p.mb-0 Mensaje comunicado
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Momento de publicación. 
+              p.mb-0 Momento de publicación
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Respuesta del público.
+              p.mb-0 Respuesta del público
             p Además, la evaluación del contenido digital permite detectar patrones de comportamiento en la audiencia, identificar qué tipo de publicaciones generan mayor impacto y reconocer oportunidades de mejora. Este análisis es clave para optimizar futuras publicaciones y fortalecer la estrategia digital.
     Separador
     //- Inicio Tema3.1
@@ -111,7 +111,7 @@
                 img(src="@/assets/curso/tema3/tarjeta02_3.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
               h4 <i>Engagement</i>
-              p El <i>engagement</i> corresponde al nivel de compromiso o conexión que los usuarios tienen con el contenido y con la marca. Generalmente se relaciona con la interacción obtenida en proporción al alcance alcanzado, lo que permite evaluar la efectividad de la publicación.
+              p El <i>engagement</i> corresponde al nivel de compromiso o conexión que los usuarios tienen con el contenido y con la marca. Generalmente, se relaciona con la interacción obtenida en proporción al alcance alcanzado, lo que permite evaluar la efectividad de la publicación.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
@@ -265,7 +265,7 @@
               .p-4.br-15.h-100.text-center.shadow.rounded-4.d-flex.flex-column.align-items-center.bg-color-14
                 figure.mb-4
                   img.mx-auto(src='@/assets/curso/tema3/tarjeta05_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")
-                h4 Clic en enlace
+                h4 Clic en el enlace
                 p.mb-0 El usuario accede a una página externa o sitio web.
             .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
               .p-4.br-15.h-100.text-center.shadow.rounded-4.d-flex.flex-column.align-items-center.bg-color-14
@@ -341,19 +341,19 @@
           ul.lista-ul.color-vinotinto-custom.mb-0
             li.d-flex.mt-3
               i.fas.fa-check-circle.me-3
-              p.mb-0 Mensaje poco claro. 
+              p.mb-0 Mensaje poco claro
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Diseño poco atractivo. 
+              p.mb-0 Diseño poco atractivo
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Segmentación inadecuada. 
+              p.mb-0 Segmentación inadecuada
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Horario de publicación poco favorable. 
+              p.mb-0 Horario de publicación poco favorable
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Formato no adecuado para la plataforma. 
+              p.mb-0 Formato no adecuado para la plataforma
     p(data-aos="fade-left") Analizar la relación entre contenido y resultados permite evaluar si la estrategia digital está funcionando correctamente o si es necesario realizar ajustes. Este proceso contribuye a la mejora continua.            
     Separador
     //- Inicio Tema3.6

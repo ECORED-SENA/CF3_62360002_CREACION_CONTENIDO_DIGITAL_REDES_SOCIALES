@@ -75,7 +75,7 @@
       .col-lg-5.ps-lg-4(data-aos="fade-left")
         .d-flex.flex-column.align-items-start
           img.mb-3(src="@/assets/curso/tema4/img4.svg", alt="" style="width: 40px;")
-          p.mb-0 Este proceso se basa en la interpretación de métricas que indican el desempeño del contenido en términos de alcance, interacción y engagement. Cuando una publicación no cumple con los objetivos esperados, es necesario identificar las causas del bajo rendimiento. Entre los factores que pueden influir en los resultados se encuentran el mensaje, el diseño, el formato y el momento de publicación.          
+          p.mb-0 Este proceso se basa en <b>la interpretación de métricas</b> que indican el desempeño del contenido en términos de <b>alcance, interacción y <i>engagement</i>.</b> Cuando una publicación no cumple con los objetivos esperados, es necesario identificar las causas del bajo rendimiento. Entre los factores que pueden influir en los resultados se encuentran el mensaje, el diseño, el formato y el momento de publicación.          
     //- Inicio Tabla
     .row.bg-color-1
       .col-12
@@ -130,13 +130,13 @@
               ul.lista-ul.color-vinotinto-custom.mb-0
                 li.d-flex.mt-3
                   i.fas.fa-check-circle.me-3
-                  p.mb-0 Mensaje poco atractivo.
+                  p.mb-0 Mensaje poco atractivo
                 li.d-flex.mt-3
                   i.fas.fa-check-circle.me-3
-                  p.mb-0 Falta de llamado a la acción.
+                  p.mb-0 Falta de llamado a la acción
                 li.d-flex.mt-3
                   i.fas.fa-check-circle.me-3
-                  p.mb-0 Diseño poco llamativo.
+                  p.mb-0 Diseño poco llamativo
       .col-11.col-sm-9.col-md-6.col-lg-4.mb-4.d-flex.flex-column
         .tarjeta.rounded-3.h-100.bg-white.border.overflow-hidden.shadow
           figure.mb-0
@@ -147,13 +147,13 @@
               ul.lista-ul.color-vinotinto-custom.mb-0
                 li.d-flex.mt-3
                   i.fas.fa-check-circle.me-3
-                  p.mb-0 Simplificar el mensaje.
+                  p.mb-0 Simplificar el mensaje
                 li.d-flex.mt-3
                   i.fas.fa-check-circle.me-3
-                  p.mb-0 Incluir un CTA claro.
+                  p.mb-0 Incluir un CTA claro
                 li.d-flex.mt-3
                   i.fas.fa-check-circle.me-3
-                  p.mb-0 Mejorar el diseño visual.
+                  p.mb-0 Mejorar el diseño visual
       .col-11.col-sm-9.col-md-6.col-lg-4.mb-4.d-flex.flex-column
         .tarjeta.rounded-3.h-100.bg-white.border.overflow-hidden.shadow
           figure.mb-0
@@ -164,10 +164,10 @@
               ul.lista-ul.color-vinotinto-custom.mb-0
                 li.d-flex.mt-3
                   i.fas.fa-check-circle.me-3
-                  p.mb-0 Incremento en la interacción.
+                  p.mb-0 Incremento en la interacción
                 li.d-flex.mt-3
                   i.fas.fa-check-circle.me-3
-                  p.mb-0 Mayor <i>engagement.</i>
+                  p.mb-0 Mayor <i>engagement</i>
     //- Fin Tarjetas
     p.mt-5(data-aos="fade-left") Este tipo de análisis permite tomar decisiones basadas en datos, lo cual es fundamental en la validación del contenido digital.
     Separador
@@ -219,20 +219,20 @@
                   tbody
                     tr
                       td <b>Mensaje</b>
-                      td Largo y confuso.
-                      td Claro y directo.
+                      td Largo y confuso
+                      td Claro y directo
                     tr
                       td <b>Imagen</b>
-                      td Baja calidad.
-                      td Alta resolución.
+                      td Baja calidad
+                      td Alta resolución
                     tr
                       td <b>CTA</b>
-                      td No tiene.
-                      td Compra ahora.
+                      td No tiene
+                      td Compra ahora
                     tr
                       td <b>Resultado</b>
-                      td Baja interacción.
-                      td Alta interacción.
+                      td Baja interacción
+                      td Alta interacción
             p.mt-5(data-aos="fade-left") Este tipo de análisis permite evidenciar el valor de la optimización del contenido digital.
     //- Título con imagen
     .bg-full-width
@@ -267,12 +267,12 @@
                         img(src='@/assets/curso/tema4/tarjeta02_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Coherencia con la marca
                         p.card-text.text-center
-                        | Refuerza identidad institucional.
+                        | Refuerza la identidad institucional.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema4/tarjeta02_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Adecuación al público objetivo
                         p.card-text.text-center
-                        | Incrementa relevancia del contenido.
+                        | Incrementa la relevancia del contenido.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema4/tarjeta02_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Uso de CTA
@@ -320,20 +320,20 @@
                   tbody
                     tr
                       td <b>Métricas</b>
-                      td Datos cuantitativos.
-                      td Evaluar rendimiento del contenido.
+                      td Datos cuantitativos
+                      td Evaluar rendimiento del contenido
                     tr
                       td <b>Comentarios</b>
-                      td Opiniones y reacciones del usuario.
-                      td Detectar fortalezas o aspectos por mejorar.
+                      td Opiniones y reacciones del usuario
+                      td Detectar fortalezas o aspectos por mejorar
                     tr
                       td <b>Mensajes</b>
-                      td Experiencia directa del cliente.
-                      td Ajustar atención y comunicación.
+                      td Experiencia directa del cliente
+                      td Ajustar atención y comunicación
                     tr
                       td <b>Análisis interno</b>
-                      td Evaluación profesional del equipo.
-                      td Optimizar estrategia y procesos.
+                      td Evaluación profesional del equipo
+                      td Optimizar estrategia y procesos
     p(data-aos="fade-left") La retroalimentación permite identificar patrones de comportamiento en la audiencia, lo cual facilita la toma de decisiones estratégicas. Por ejemplo, si un tipo de contenido genera mayor interacción, puede replicarse esa estrategia en futuras publicaciones.
     Separador
     //- Inicio Tema4.5
@@ -350,22 +350,22 @@
           ul.lista-ul.color-vinotinto-custom.mb-0
             li.d-flex.mt-3
               i.fas.fa-check-circle.me-3
-              p.mb-0 Publicar contenido. 
+              p.mb-0 Publicar contenido
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Analizar métricas. 
+              p.mb-0 Analizar métricas
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Identificar errores. 
+              p.mb-0 Identificar errores
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Detectar oportunidades de mejora. 
+              p.mb-0 Detectar oportunidades de mejora
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Aplicar ajustes. 
+              p.mb-0 Aplicar ajustes
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Evaluar nuevamente.
+              p.mb-0 Evaluar nuevamente
     p(data-aos="fade-left") Este ciclo permite que el contenido digital mejore progresivamente, aumentando su efectividad y su impacto en la audiencia. 
     .row.mb-5.justify-content-center.align-items-center
       .col-12.col-sm-9.col-lg-5.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-left")
@@ -376,16 +376,16 @@
           ul.lista-ul.color-vinotinto-custom.mb-0
             li.d-flex.mt-3
               i.fas.fa-check-circle.me-3
-              p.mb-0 Mayor calidad del contenido. 
+              p.mb-0 Mayor calidad del contenido
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Incremento del <i>engagement.</i> 
+              p.mb-0 Incremento del <i>engagement</i> 
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Mejor posicionamiento digital. 
+              p.mb-0 Mejor posicionamiento digital
             li.d-flex.mt-2
               i.fas.fa-check-circle.me-3
-              p.mb-0 Adaptación a tendencias y cambios del entorno.
+              p.mb-0 Adaptación a tendencias y cambios del entorno
     //- Título con imagen
     .bg-full-width
       .px-4.px-md-5.pb-md-3
@@ -443,7 +443,7 @@
     //- Inicio Tema4.6
     .row.mt-6
         #t_4_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 4.5 Actividad práctica
+          h2 4.6 Actividad práctica
     p.mb-5(data-aos="fade-left") La siguiente actividad integra los conceptos trabajados sobre evaluación, ajuste y optimización del contenido digital. Su propósito es fortalecer la capacidad de análisis estratégico frente al desempeño de publicaciones en redes sociales.
     //- Título con imagen
     .bg-full-width
