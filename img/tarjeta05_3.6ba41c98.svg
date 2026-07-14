@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107.999" height="108" viewBox="0 0 107.999 108">
+  <defs>
+    <filter id="Rectangle_411831" x="0" y="0" width="107.999" height="108" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_424875" data-name="Rectangle 424875" width="60" height="69" transform="translate(212.051 5133)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1204297" data-name="Group 1204297" transform="translate(-188.001 -5116.455)">
+    <g id="Group_1204038" data-name="Group 1204038" transform="translate(197 5122.455)">
+      <g id="Group_1203409" data-name="Group 1203409" transform="translate(0.001)">
+        <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_411831)">
+          <g id="Rectangle_411831-2" data-name="Rectangle 411831" transform="translate(9 6)" fill="#8fe8d5" stroke="#fff" stroke-width="2">
+            <path d="M5,0H58A32,32,0,0,1,90,32V85a5,5,0,0,1-5,5H32A32,32,0,0,1,0,58V5A5,5,0,0,1,5,0Z" stroke="none"/>
+            <path d="M5,1H58A31,31,0,0,1,89,32V85a4,4,0,0,1-4,4H32A31,31,0,0,1,1,58V5A4,4,0,0,1,5,1Z" fill="none"/>
+          </g>
+        </g>
+      </g>
+      <path id="Path_1260076" data-name="Path 1260076" d="M16.614.687H.856V7.046h11.25L.856,18.219,5.4,22.735,16.614,11.6V22.735h6.441V.687Z" transform="translate(-0.856 67.265)" fill="#1f1321" fill-rule="evenodd"/>
+      <path id="Path_1260092" data-name="Path 1260092" d="M5.755,17.459H17.742V12.622H9.184l8.558-8.5L14.284.687,5.755,9.157V.687H.856V17.459Z" transform="translate(72.258 -0.686)" fill="#1f1321" fill-rule="evenodd"/>
+    </g>
+    <g id="Mask_Group_1107839" data-name="Mask Group 1107839" clip-path="url(#clip-path)">
+      <g id="XMLID_1096_" transform="translate(212.051 5137.5)">
+        <path id="XMLID_1060_" d="M1.172,1.172H58.828V49.453H1.172Z" fill="#fff"/>
+        <path id="XMLID_1061_" d="M1.172,1.172H58.828v9.375H1.172Z" fill="#98eaf9"/>
+        <path id="XMLID_979_" d="M8.906,22.031H51.094V37.969H8.906Z" fill="#ff7d97"/>
+        <path id="XMLID_1195_" d="M30,32.344l14.784,8.535-3.721,2.148,6.675,11.562L40.4,58.828,33.721,47.266,30,49.415Z" fill="#66dff6"/>
+        <g id="XMLID_133_">
+          <path id="XMLID_149_" d="M58.828,0H1.172A1.172,1.172,0,0,0,0,1.172V49.453a1.172,1.172,0,0,0,1.172,1.172H34.307l5.074,8.789a1.172,1.172,0,0,0,1.6.429L48.324,55.6a1.172,1.172,0,0,0,.429-1.6L46.8,50.625H58.828A1.172,1.172,0,0,0,60,49.453V1.172A1.172,1.172,0,0,0,58.828,0ZM57.656,2.344V9.375H2.344V2.344ZM40.826,57.227,34.736,46.68a1.172,1.172,0,0,0-1.6-.429l-1.963,1.133V34.373L42.44,40.879l-1.963,1.133a1.172,1.172,0,0,0-.429,1.6L46.138,54.16Zm4.624-8.946-2.786-4.825,2.706-1.562a1.172,1.172,0,0,0,0-2.03l-1.253-.724h6.977a1.172,1.172,0,0,0,1.172-1.172V22.031a1.172,1.172,0,0,0-1.172-1.172H35.273a1.172,1.172,0,0,0,0,2.344H49.922V36.8H40.057l-9.471-5.468a1.172,1.172,0,0,0-1.758,1.015V36.8H10.078V23.2H24.727a1.172,1.172,0,0,0,0-2.344H8.906a1.172,1.172,0,0,0-1.172,1.172V37.969a1.172,1.172,0,0,0,1.172,1.172H28.829v9.141H2.344V11.719H57.656V48.281Z"/>
+          <path id="XMLID_152_" d="M7.5,7.031a1.172,1.172,0,1,0-.829-.343A1.181,1.181,0,0,0,7.5,7.031Z"/>
+          <path id="XMLID_153_" d="M13.125,7.031a1.172,1.172,0,1,0-.829-.343A1.181,1.181,0,0,0,13.125,7.031Z"/>
+          <path id="XMLID_1077_" d="M18.75,7.031a1.172,1.172,0,1,0-.829-.343A1.181,1.181,0,0,0,18.75,7.031Z"/>
+          <path id="XMLID_1087_" d="M30,7.031H52.441a1.172,1.172,0,0,0,0-2.344H30a1.172,1.172,0,0,0,0,2.344Z"/>
+          <path id="XMLID_1088_" d="M30,20.859a1.173,1.173,0,1,0,.828.343A1.181,1.181,0,0,0,30,20.859Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
