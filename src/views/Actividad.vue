@@ -20,7 +20,7 @@ export default {
       tema: 'Validación y optimización del contenido digital',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar los conocimientos adquiridos por el aprendiz sobre los protocolos de comunicación, la verificación de la estructura del contenido, la evaluación mediante métricas y el proceso de ajuste y optimización del contenido digital en redes sociales.',
+        '<b> Objetivo:</b> evaluar los conocimientos adquiridos por el aprendiz sobre los protocolos de comunicación, la verificación de la estructura del contenido, la evaluación mediante métricas y el proceso de ajuste y optimización del contenido digital en redes sociales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',

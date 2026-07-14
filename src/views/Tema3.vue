@@ -12,7 +12,7 @@
           img(src='@/assets/curso/tema3/img1.png' style="width: 550px").m-auto
       .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p.bg-color-11.p-4.rounded <b>La evaluación del contenido digital</b> es el proceso mediante el cual se analizan los resultados obtenidos a partir de la publicación de contenido en redes sociales, con el fin de determinar su efectividad, impacto y nivel de cumplimiento de los objetivos de comunicación.
-        p Este proceso permite identificar si el contenido logró captar la atención del público, generar interacción y cumplir con la intención para la cual fue creado. En el contexto del marketing digital, la evaluación del contenido constituye una etapa fundamental dentro del ciclo de gestión del contenido, ya que proporciona información objetiva basada en datos reales. A diferencia de la percepción subjetiva, la evaluación permite medir el desempeño mediante indicadores específicos, facilitando la toma de decisiones informadas.
+        p Este proceso permite identificar si el contenido logró captar la atención del público, generar interacción y cumplir con la intención para la cual fue creado. En el contexto del <i>marketing</i> digital, la evaluación del contenido constituye una etapa fundamental dentro del ciclo de gestión del contenido, ya que proporciona información objetiva basada en datos reales. A diferencia de la percepción subjetiva, la evaluación permite medir el desempeño mediante indicadores específicos, facilitando la toma de decisiones informadas.
         p.mb-0 La evaluación no solo se enfoca en determinar si un contenido obtuvo buenos o bajos resultados, sino en comprender por qué ocurrió. Para ello, es necesario analizar factores como:
     .row.mb-5.justify-content-center.align-items-center
       .col-12.col-sm-9.col-lg-4.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-left")
@@ -434,7 +434,7 @@
                       td 5.000 personas
                     tr
                       td <b>Interacción</b>
-                      td 50 likes y 2 comentarios
+                      td 50 <i>likes</i> y 2 comentarios
                     tr
                       td <b><i>Engagement</i></b>
                       td Bajo
